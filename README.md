@@ -4,7 +4,7 @@ The size of common React libraries.
 
 > Make your code, not your framework the largest part of your app!
 
-With applications that expecting the highest performance, the size if one of important criteria we have to consider when choosing a framework.
+With applications that expecting the highest performance, the size is one of the important criteria we have to consider when choosing a framework.
 
 Every KB matters!
 
