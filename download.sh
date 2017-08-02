@@ -1,32 +1,28 @@
 #!/bin/bash
 
 declare -a libraries=(
-  'https://unpkg.com/react/dist/react.min.js'
-  'https://unpkg.com/react/dist/react-with-addons.min.js'
-  'https://unpkg.com/react-dom/dist/react-dom.min.js'
+  'react/dist/react.min.js'
+  'react/dist/react-with-addons.min.js'
+  'react-dom/dist/react-dom.min.js'
 
-  'https://unpkg.com/react-router/umd/react-router.min.js'
-  'https://unpkg.com/react-router-dom/umd/react-router-dom.min.js'
-  'https://unpkg.com/react-router-redux/dist/ReactRouterRedux.min.js'
+  'react-router/umd/react-router.min.js'
+  'react-router-dom/umd/react-router-dom.min.js'
+  'react-router-redux/dist/ReactRouterRedux.min.js'
 
-  'https://unpkg.com/styled-components/dist/styled-components.min.js'
+  'styled-components/dist/styled-components.min.js'
 
-  'https://unpkg.com/redux/dist/redux.min.js'
+  'redux/dist/redux.min.js'
 
-  'https://unpkg.com/redux-actions/dist/redux-actions.min.js'
+  'redux-actions/dist/redux-actions.min.js'
 
-  'https://unpkg.com/recompose/build/Recompose.min.js'
+  'recompose/build/Recompose.min.js'
 
-  'https://unpkg.com/preact/dist/preact.min.js'
+  'preact/dist/preact.min.js'
 
-  'https://unpkg.com/react-intl/dist/react-intl.min.js'
+  'react-intl/dist/react-intl.min.js'
 )
-
-cd libraries/
 
 for lib in "${libraries[@]}"
 do
-   curl -O -J -L $lib
+   cp node_modules/$lib libraries/
 done
-
-cd ..
