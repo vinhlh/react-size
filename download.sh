@@ -16,6 +16,10 @@ declare -a libraries=(
   'https://unpkg.com/redux-actions@2.2.1/dist/redux-actions.min.js'
 
   'https://unpkg.com/recompose@0.24.0/build/Recompose.min.js'
+
+  'https://unpkg.com/preact@8.2.1/dist/preact.min.js'
+
+  'https://unpkg.com/react-intl@2.3.0/dist/react-intl.min.js'
 )
 
 for lib in "${libraries[@]}"

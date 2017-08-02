@@ -22,6 +22,8 @@ Notes: we have tree shaking ahead! So these values are only for reference.
 -rw-r--r--   1 vinhlh  staff    19K Aug  2 10:26 redux-actions.min.js
 -rw-r--r--   1 vinhlh  staff   5.6K Aug  2 10:26 redux.min.js
 -rw-r--r--   1 vinhlh  staff    38K Aug  2 10:26 styled-components.min.js
+-rw-r--r--   1 vinhlh  staff   8.1K Aug  2 10:45 preact.min.js
+-rw-r--r--   1 vinhlh  staff    41K Aug  2 10:45 react-intl.min.js
 ```
 
 ## Gzipped
@@ -37,6 +39,8 @@ Notes: we have tree shaking ahead! So these values are only for reference.
 -rw-r--r--   1 vinhlh  staff   5.6K Aug  2 10:26 redux-actions.min.js.gz
 -rw-r--r--   1 vinhlh  staff   2.2K Aug  2 10:26 redux.min.js.gz
 -rw-r--r--   1 vinhlh  staff    13K Aug  2 10:26 styled-components.min.js.gz
+-rw-r--r--   1 vinhlh  staff   3.4K Aug  2 10:45 preact.min.js.gz
+-rw-r--r--   1 vinhlh  staff    11K Aug  2 10:45 react-intl.min.js.gz
 ```
 
 ## Results
@@ -50,3 +54,5 @@ Notes: we have tree shaking ahead! So these values are only for reference.
 | Styled components |   13K |
 | Recompose         |  3.7K |
 | Redux Actions     |  5.6K |
+| Preact            |  3.4K |
+| React Intl        |   11K |
