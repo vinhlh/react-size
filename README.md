@@ -45,14 +45,14 @@ Notes: we have tree shaking ahead! So these values are only for reference.
 
 ## Results
 
-| Library           | Size  |
-| ----------------- | -----:|
-| React             | 46.7K |
-| React with addons |   51K |
-| Redux             |  2.2K |
-| React Router      | 19.8K |
-| Styled components |   13K |
-| Recompose         |  3.7K |
-| Redux Actions     |  5.6K |
-| Preact            |  3.4K |
-| React Intl        |   11K |
+| Library           | Version | Size  |
+| ----------------- | :------ | -----:|
+| React             | 15.6.1  | 46.7K |
+| React with addons | 15.6.1  |   51K |
+| Redux             | 3.7.2   |  2.2K |
+| React Router      | 4.1.2   | 19.8K |
+| Styled components | 2.1.1   |   13K |
+| Recompose         | 0.24.0  |  3.7K |
+| Redux Actions     | 2.2.1   |  5.6K |
+| Preact            | 8.2.1   |  3.4K |
+| React Intl        | 2.3.0   |   11K |
